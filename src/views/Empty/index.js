@@ -9,9 +9,7 @@ class Empty extends Component {
   }
   render() {
     return (
-      <Link to='/admin/user' className='empty_wrapper'  onClick={this.goIndex}>
-
-      </Link>
+      <Link to='/admin/user' className='empty_wrapper'  />
     );
   }
 }
